@@ -1,16 +1,17 @@
-# This is a sample Python script.
+from tkinter import LEFT
+from tkinter.filedialog import *
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import tkinter as tk
+canvas = tk.Tk()
+canvas.geometry("400x600")
+canvas.title("Notepad")
+canvas.config(bg = "white")
+
+b1 = tk.Button(canvas, text ="open", bg ="white")
+b1.pack(side=LEFT)
+tk.Button
+b2 = tk.Button(canvas, text ="save", bg ="white")
+b2.pack(side=LEFT)
+canvas.mainloop()
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
